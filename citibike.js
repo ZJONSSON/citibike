@@ -73,7 +73,7 @@ api.trips = function(login,full,connect,resolve,reject) {
       return d.duration.slice(0,2) != '0m';
     });
 
-    resolve(res);
+    resolve(res.reverse());
   });
 };
 
